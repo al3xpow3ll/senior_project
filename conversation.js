@@ -1,11 +1,11 @@
 var request = require("request");
 var http = require("http");
-var translationUsername= "your translation service username"
-var translationPassword= "your translation service password"
-var conversationUserame = "your converstaion service username";
-var conversationPassword = "your converstaion service password";
+var translationUsername= "steven.travers@traversconsultingus.com"
+var translationPassword= "Dar42over"
+var conversationUserame = "steven.travers@traversconsultingus.com";
+var conversationPassword = "Dar42over";
 var conversationWorkspace = "VZ1vV6uzNj152p4skCPdiN4APrhKCLKlCiQV8nVmAn2I"
-var transUrl = "https://gateway.watsonplatform.net/language-translator/api/v2/translate";
+var transUrl = "https://gateway.watsonplatform.net/assistant/api/v2/assistants/52e52856-6f8d-481c-adef-5048afb92484/sessions";
 var watson = require("watson-developer-cloud");
 var workspace = 
 
